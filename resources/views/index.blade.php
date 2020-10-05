@@ -12,28 +12,35 @@
     <div class="header-top">
         <div class="content-body">
             <header>
-                <h2>Seu app Delivery</h2>
-                <p class="text-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Hic commodi ut libero maiores deleniti</p>
+                <h2 class="title-delivery">Seu app Delivery</h2>
+                <p class="text-delivery">Slogam do seu estabelecimento aqui!</p>
             </header>
         </div>
     </div>  
     <section class="menu">
         <div class="content-body">
-            <h5>Nome do seu estabelecimento</h5>
+            <h5>Faça seu pedido!</h5>
         </div>
         <div class="content-body">
             <div class="menu-item ">
-                <p class="text-menu">Hamburguer</p>
+                <a class="link-menu" href="{{route('cardapio')}}">
+                    <img class="icon-menu" src="{{asset('image/burger.svg')}}" alt="">
+                    <p class="text-menu">Hamburguer</p>
+                 </a>
             </div>
             <div class="menu-item ">
+                <img class="icon-menu" src="{{asset('image/combo.svg')}}" alt="">
                 <p class="text-menu">Combos</p>
             </div>
             <div class="menu-item ">
+                <img class="icon-menu" src="{{asset('image/bebidas.svg')}}" alt="">
                 <p class="text-menu">Bebidas</p>
             </div>
-            <div class="menu-item ">
-                <p class="text-menu">Taxa de entregas</p> 
+            <div  class="menu-item ">
+                <a class="link-menu" href="{{route('pedidos')}}">
+                    <img class="icon-menu" src="{{asset('image/comprar.svg')}}" alt="">
+                    <p class="text-menu">Pedidos</p>
+            </a> 
             </div>
         </div>
     </section>
