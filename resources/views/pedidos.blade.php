@@ -13,7 +13,7 @@
         <div class="content-body">
             <header>
                 <h2>PEDIDOS</h2>
-                <p class="text-p">Pedidos</p>
+                <p class="text-p">Novos Pedidos</p>
             </header>
         </div>
     </div>  
