@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('global.css')}}">
-   
+
 
     <title>Página</title>
 </head>
@@ -12,11 +12,14 @@
     <div class="header-top">
         <div class="content-body">
             <header>
+
                 <h2 class="title-delivery">App Delivery2</h2>
                 <p class="text-delivery">Agora vai!</p>
+
+       
             </header>
         </div>
-    </div>  
+    </div>
     <section class="menu">
         <div class="content-body">
             <h5>Faça seu pedido!</h5>
@@ -44,7 +47,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer>
         <div class="content-body">
             <p class="text-footer">Todos os Direitos reservados para @Dev-2020</p>
