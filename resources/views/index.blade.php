@@ -39,7 +39,7 @@
             <div  class="menu-item ">
                 <a class="link-menu" href="{{route('pedidos')}}">
                     <img class="icon-menu" src="{{asset('image/comprar.svg')}}" alt="">
-                    <p class="text-menu">Carrinho</p>
+                    <p class="text-menu">Carrinho2</p>
                 </a> 
             </div>
         </div>
