@@ -13,7 +13,7 @@
         <div class="content-body">
             <header>
                 <h2 class="title-delivery">App Delivery2</h2>
-                <p class="text-delivery">Slogam do seu estabelecimento aqui!</p>
+                <p class="text-delivery">Agora vai!</p>
             </header>
         </div>
     </div>  
