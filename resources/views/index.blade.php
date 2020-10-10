@@ -12,7 +12,7 @@
     <div class="header-top">
         <div class="content-body">
             <header>
-                <h2 class="title-delivery">App Delivery</h2>
+                <h2 class="title-delivery">App Delivery 1</h2>
                 <p class="text-delivery">Slogam do seu estabelecimento aqui!</p>
             </header>
         </div>
