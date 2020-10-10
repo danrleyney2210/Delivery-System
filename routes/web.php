@@ -15,4 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
+
+Route::get('/cardapio', function () {
+    return view('cardapio');
+})->name('cardapio');
+
+Route::get('/pedidos', function () {
+    return view('pedidos');
+})->name('pedidos');

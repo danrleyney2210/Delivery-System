@@ -23,11 +23,47 @@ body{
 h2,h2{
     color: var(--color-background);
 }
+.menu-item{
+    padding: 10px 10px;
+    width: 25vw;
+    background-color: var(--color-background);
+    border-radius: 10px;
+    margin: 10px 5px;
+    cursor: pointer;
+    
+}
+.menu-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.icon-menu{
+    
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-left: 50%; margin-top: 20%; 
+    transform: translate(-50%, -50%);
+
+}
+.title-delivery{
+    text-align: center;
+}
+.text-delivery{
+    text-align: center;
+    color: #fff;
+}
 .text-p{
     color: var(--color-background);
 }
 .text-menu{
     text-align: center;
+    text-decoration: none;
+    color: var(--color-text-base);
+}
+.link-menu{
+    text-decoration: none;
 }
 .text-footer{
     color: var(--color-text-base);
@@ -35,6 +71,7 @@ h2,h2{
 }
 .header-top{
     background-color: var(--color-primary-dark);
+    
 }
 .content-body{
     width: 70vw;
@@ -48,15 +85,7 @@ header{
     background-color: #741407;
     padding: 10px 30px;
 }
-.menu-item{
-    height: 120px;
-    width: 25vw;
-    background-color: var(--color-background);
-    border-radius: 10px;
-    margin: 10px 5px;
-   cursor: pointer;
-    
-}
+
 
 /* Responsividade para dispositivos*/
 

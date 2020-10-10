@@ -1,0 +1,255 @@
+:root{
+    --color-background-bold: #D4C2FF;
+    --color-background: #F0F0F7;
+    --color-primary-light: #f6331a;
+    --color-primary-dark: #741407;
+    --color-secundary: #916BEA; 
+    --color-text-title: #32264D;
+    --color-text-base: #6A6180;
+    --color-text-complement: #9C98A6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    font-family: 'calibri';
+}
+body{
+    background-color:var(--color-background-bold);
+}
+h2,h2{
+    color: var(--color-background);
+}
+.header-top{
+   
+    background-color: var(--color-primary-dark);
+    
+}
+header{
+    
+    padding: 10px 20px;
+    
+}
+.content-body{
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 10px;
+    
+    
+}
+.content-pedidos{
+    background-color: #fff;
+    width: 100vw;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+.table-pedidos{
+    width: 100%;
+    margin-top: 20px;
+
+}
+table thead{
+    background-color: #f0f0f1;
+    font-family: 'calibri';
+}
+table, th,td{
+    border: 1px solid #ededee;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'calibri';
+}
+table, th{
+    text-align: left;
+}
+
+.form-client{
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    
+    
+
+}
+.form-client h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #49a049;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+input .checkbox{
+    color: #32264D;
+    font-family: 'calibri';
+    text-transform: uppercase;
+}
+.controls{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius:4px;
+    margin-top:  16px;
+    outline: none;
+    font-family: 'calibri';
+    font-size: 15px;
+    border:none ;
+}
+.form-client textarea{
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-color: #49a049;
+    outline: none;
+}
+.form-client button{
+    width: 100%;
+    background-color: #5cb85c;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    margin: 16px 0 ;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.form-client button:hover{
+    background-color: #49a049;
+}
+
+.table-icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.icon-button{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+.title-header{
+    text-transform:  uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.title-pedidos{
+    color: #741407;
+    font-family: 'calibri';
+    text-align: center;
+    text-transform: uppercase;
+}
+.text-title{
+   text-align: center;
+   color: var(--color-primary-dark);
+   text-transform: uppercase;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-p{
+    color: var(--color-background);
+}
+.text-menu{
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-text-base);
+}
+.link-menu{
+    text-decoration: none;
+}
+.text-footer{
+    color: var(--color-text-base);
+    text-align: center;
+}
+
+
+
+/* Responsividade para dispositivos*/
+
+@media (max-width:960px){
+    .content-body{
+        flex-wrap: wrap;
+        width: 80vw;
+    }
+    .menu-item{
+        width: 35vw;
+        
+    }
+   
+    .item-cardapio{
+        width: 100vw;
+    }
+}
+@media (max-width:799px){
+    .content-body{
+        width:90vw;
+    }
+    .cardapio{
+        width: 90vw;
+        
+    }
+    .menu-item{
+        width: 39vw;
+        margin: 5px 5px;
+        
+        
+    }
+   
+    .item-cardapio{
+        width: 100vw;
+        
+    }
+    .table-pedidos table tr,th.hour{
+        display: none;
+    }
+    .table-pedidos talbe tr,td.hour{
+        display: none;
+    }
+}
+@media (max-width:667px){
+    .content-body{
+        width: 90vw;
+
+    }
+    
+}
+@media (max-width:399px){
+    .content-body{
+        width: 100vw;
+        padding: 10px 10px;
+        
+
+    }
+    .content-pedidos{
+        padding: 10px 10px;
+    }
+    .form-client{
+        background-color:;
+        width: 100vw;
+        margin: 0px 0px;
+        margin: 0px 0px;
+    }
+
+   
+    
+}
+@media (max-width:399px){
+    
+    .description-item{
+        font-size: 13px;
+    }
+}
