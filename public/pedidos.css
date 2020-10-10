@@ -16,6 +16,7 @@
 }
 html,body{
     height: 100vh;
+    font-family: 'calibri';
 }
 body{
     background-color:var(--color-background-bold);
@@ -43,20 +44,93 @@ header{
     
     
 }
-.cardapio{
-    width: 80vw;
-    margin: 0 auto;
-    
+.content-pedidos{
+    background-color: #fff;
+    width: 100vw;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+.table-pedidos{
+    width: 100%;
+    margin-top: 20px;
+
+}
+table thead{
+    background-color: #f0f0f1;
+    font-family: 'calibri';
+}
+table, th,td{
+    border: 1px solid #ededee;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'calibri';
+}
+table, th{
+    text-align: left;
 }
 
-select{
-    outline: 0;
-    box-shadow: none;
-    height: 2.8em;
+.form-client{
+    background-color: rgb(243, 243, 243);
     border-radius: 5px;
-    background-color: #808080;
-    cursor: pointer;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    
+    
+
+}
+.form-client h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #49a049;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+input .checkbox{
+    color: #32264D;
+    font-family: 'calibri';
+    text-transform: uppercase;
+}
+.controls{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius:4px;
+    margin-top:  16px;
+    outline: none;
+    font-family: 'calibri';
+    font-size: 15px;
+    border:none ;
+}
+.form-client textarea{
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-color: #49a049;
+    outline: none;
+}
+.form-client button{
+    width: 100%;
+    background-color: #5cb85c;
+    border: none;
+    padding: 12px;
     color: #fff;
+    margin: 16px 0 ;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.form-client button:hover{
+    background-color: #49a049;
+}
+
+.table-icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
 }
 .icon-button{
     width: 80vw;
@@ -67,46 +141,18 @@ select{
     width: 30px;
     height: 30px;
 }
-.item-cardapio{
-    display: flex;
-    
-    width: 50vw;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 5px 5px;
-}
-.image-item{
-   
-    margin: 10px 5px;
-    
-    border-radius: 10px;
-}
-.img-item{
-    height: 120px;
-    width: 120px;
-}
-.description-item{
-    padding: 10px 10px;
-    
-}
-.description-p{
-    color: #959595;
-}
-.btn-item{
-    padding: 10px 10px;
-    border: none;
-    border-radius: 4px;
-    margin-top: 10px;
-    background-color: #5cb85c;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
+
+
 .title-header{
     text-transform:  uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+}
+.title-pedidos{
+    color: #741407;
+    font-family: 'calibri';
+    text-align: center;
+    text-transform: uppercase;
 }
 .text-title{
    text-align: center;
@@ -167,39 +213,37 @@ select{
         width: 100vw;
         
     }
+    .table-pedidos table tr,th.hour{
+        display: none;
+    }
+    .table-pedidos talbe tr,td.hour{
+        display: none;
+    }
 }
 @media (max-width:667px){
     .content-body{
-        width: 95vw;
-     
+        width: 90vw;
 
     }
-    .cardapio{
-        width: 100%;
-    }
-    .menu-item{
-        width: 40vw;
-    }
-    .item-cardapio{
-        width: 100vw;
-    }
-   
     
 }
 @media (max-width:399px){
     .content-body{
         width: 100vw;
-        padding: 5px 5px;
+        padding: 10px 10px;
+        
 
     }
-    .menu-item{
-        width: 40vw;
+    .content-pedidos{
+        padding: 10px 10px;
     }
-    .item-cardapio{
-        width: 94vw;
-        margin: 5px 4px;
-       
+    .form-client{
+        background-color:;
+        width: 100vw;
+        margin: 0px 0px;
+        margin: 0px 0px;
     }
+
    
     
 }

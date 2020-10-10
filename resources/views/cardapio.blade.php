@@ -16,8 +16,10 @@
                     <a href="{{route('index')}}">
                     <img class="btn-icon" src="{{asset('image/back.svg')}}" alt="">
                     </a>
-                    <h2>R$ 00,00</h2>
-                    <img class="btn-icon" src="{{asset('image/carrinho.svg')}}" alt="">
+                    <h2 class="title-header">Cardápio</h2>
+                    <a href="{{'pedidos'}}">
+                        <img class="btn-icon" src="{{asset('image/carrinho.svg')}}" alt="">
+                    </a>
                 </div>
                
             </header>
