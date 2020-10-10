@@ -39,8 +39,8 @@
             <div  class="menu-item ">
                 <a class="link-menu" href="{{route('pedidos')}}">
                     <img class="icon-menu" src="{{asset('image/comprar.svg')}}" alt="">
-                    <p class="text-menu">Pedidos</p>
-            </a> 
+                    <p class="text-menu">Carrinho</p>
+                </a> 
             </div>
         </div>
     </section>
