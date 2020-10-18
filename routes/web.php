@@ -24,3 +24,17 @@ Route::get('/cardapio', function () {
 Route::get('/pedidos', function () {
     return view('pedidos');
 })->name('pedidos');
+
+
+//Rota para tela de login
+Route::get('/login', function () {
+    return view('/login.login');
+})->name('login');
+//Rota para cadastro
+Route::get('/register', function () {
+    return view('/login.register');
+})->name('register');
+//Rota para página inicial Dahsboard
+Route::get('/dashboard', function () {
+    return view('system-delivery-adm.index');
+})->name('dashboard');

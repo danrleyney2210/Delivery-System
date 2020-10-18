@@ -65,7 +65,8 @@
                 <h3 class="title-pedidos">Preencha abaixo para finalizar</h3>
                 <form action="" method="" >
                     
-                    <input class="controls" type="text" name="nome" placeholder="Digite seu nome">
+                    <input class="controls" type="text" name="nome" placeholder="D
+                    ite seu nome">
                     <input class="controls" type="text" name="nome" placeholder="CPF">
                     <input class="controls" type="text" name="nome" placeholder="Número celular">
                     <input class="controls" type="text" name="nome" placeholder="CEP">
